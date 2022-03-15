@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import PortfolioContainer from "./PortfolioContainer/PortfolioContainer";
+// import { ToastContainer } from 'react-toastify';
+// import "react-toastify/dist/ReactToastify.css";
+import { BrowserRouter, Route } from 'react-router-dom';
+// import PageBooks from "./PortfolioContainer/Interests/Booklover";
+// import basketball from "./PortfolioContainer/Interests/basketball";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      {/* <BrowserRouter>
+        <Route path='/' exact>
+          <ToastContainer />
+          <PortfolioContainer />
+        </Route>
+        <Route path='/books' component={PageBooks} />
+        <Route path='/basketball' component={basketball} />
+      </BrowserRouter> */}
+      HI
+    </div >
   );
-}
+};
 
 export default App;
+
+
